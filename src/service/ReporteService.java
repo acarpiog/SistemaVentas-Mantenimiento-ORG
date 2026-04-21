@@ -43,4 +43,8 @@ public class ReporteService {
         int totalVentas = ventaRepo.contarVentas();
         Console.info("TOTAL VENTAS: " + totalVentas);
     }
+
+    public void mostrarCantidadVentas(int cantidad) {
+    Console.info("Cantidad de ventas registradas: " + cantidad);
+}
 }
