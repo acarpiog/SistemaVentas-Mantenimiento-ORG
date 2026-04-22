@@ -47,4 +47,8 @@ public class ReporteService {
     public void mostrarCantidadVentas(int cantidad) {
     Console.info("Cantidad de ventas registradas: " + cantidad);
 }
+
+public void mostrarCantidadVentas2(int cantidad) {
+    Console.info("Cantidad de ventas registradas: " + cantidad);
+}
 }
